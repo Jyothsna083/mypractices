@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandamudi Jyothsna Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#9333ea', // Purple-600
+                        secondary: '#c084fc', // Purple-400
+                        dark: '#1e1b4b', // Dark purple
+                        light: '#f5f3ff', // Light purple
+                        gray: '#a78bfa' // Purple-300
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-light text-dark p-2 ">
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold">
+                J
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="hover:text-primary hover:underline transition-colors">Home</a>
+                <a href="#about" class="hover:text-primary hover:underline transition-colors">About</a>
+                <a href="#skills" class="hover:text-primary hover:underline transition-colors">Skills</a>
+                <a href="#certifications" class="hover:text-primary hover:underline transition-colors">Certifications</a>
+                <a href="#projects" class="hover:text-primary hover:underline transition-colors">Projects</a>
+                <a href="#contact" class="hover:text-primary hover:underline transition-colors">Contact</a>
+            </nav>
+            <div class="md:hidden cursor-pointer">
+                <i class="fas fa-bars text-dark"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section id="home" class="hero min-h-screen bg-gradient-to-br from-purple-50 to-indigo-100 flex items-center pt-20">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                        Hi, I'm <span class="text-primary hover:text-purple-700">Nandamudi Jyothsna</span>
+                    </h1>
+                    <pre>
+                    <p class="text-2xl text-purple-400  font-underline font-bold">Web Developer</p>
+                    <p class="text-xl text-gray-600 mb-8 text-justify">A self motivated Computer Science Engineering student with a solid background
+in technology and practical experience in real-time projects. </p>
+                    </pre>
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
+                        <a href="#projects" class="bg-gradient-to-r from-primary to-secondary text-white py-3 px-8 rounded-full font-semibold hover:shadow-lg transition-shadow">View My Work</a>
+                        <a href="https://pdf.ac/4CNvqh" 
+                        class="border-2 border-primary text-primary py-3 px-8 rounded-full font-semibold hover:bg-primary hover:text-white transition-colors">Download Resume</a>
+                    </div>
+                </div>
+                <div class="md:w-2/5">
+                    <img src="https://ih1.redbubble.net/image.5514997272.2094/raf,360x360,075,t,fafafa:ca443f4786.jpg" alt="Nandamudi Jyothsna's Profile" class="rounded-xl shadow-xl hover:shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">About Me</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="md:w-1/2">
+                   
+                    
+                    <!-- Education section -->
+                    <div class="bg-gray-50 p-6 rounded-xl shadow-md mb-6">
+                        <h3 class="text-xl font-bold mb-4">Education</h3>
+                        
+                        <div class="mb-4">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white flex-shrink-0 mr-4">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">B.Tech in Computer Science and Engineering</h4>
+                                    <p class="text-gray-600">Anil Neerukonda Institute of Technology and Sciences</p>
+                                    <p class="text-gray-500 text-sm">2024 - Present</p>
+                                    <p class="text-gray-500 text-sm">CGPA: 9.3(current)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white flex-shrink-0 mr-4">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Intermediate</h4>
+                                    <p class="text-gray-600">Sri Aditya Junior College</p>
+                                    <p class="text-gray-500 text-sm">2022 - 2024</p>
+                                    <p class="text-gray-500 text-sm">Percentage : 98%</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white flex-shrink-0 mr-4">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Schooling</h4>
+                                    <p class="text-gray-600">Geetanjali vidyalayam School</p>
+                                    <p class="text-gray-500 text-sm">2013 - 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <h4 class="text-xl font-semibold mb-6">About Me</h4>
+                        
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white flex-shrink-0">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-medium">GitHub</h5>
+                                <p class="text-gray-600">https://github.com/Jyothsna083</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white flex-shrink-0">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-medium">Location</h5>
+                                <p class="text-gray-600">visakhapatnam , India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Skills</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
+            </div>
+            
+            <!-- Programming Languages -->
+            <div class="mb-12">
+                <h3 class="text-xl font-bold mb-6 text-primary">Programming Languages</h3>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <span class="px-5 py-2 bg-primary text-white rounded-full font-medium">HTML5</span>
+                    <span class="px-5 py-2 bg-primary text-white rounded-full font-medium">CSS3</span>
+                    <span class="px-5 py-2 bg-primary text-white rounded-full font-medium">Java</span>
+                    <span class="px-5 py-2 bg-primary text-white rounded-full font-medium">Python</span>
+                    <span class="px-5 py-2 bg-primary text-white rounded-full font-medium">SQL</span>
+                </div>
+            </div>
+            
+            <!-- Frameworks & Libraries -->
+            <div class="mb-12">
+                <h3 class="text-xl font-bold mb-6 text-primary">Frameworks & Libraries</h3>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <span class="px-5 py-2 bg-primary text-white rounded-full font-medium">Flask</span>
+                    <span class="px-5 py-2 bg-primary text-white rounded-full font-medium">Tailwind CSS</span>
+                    
+                </div>
+            </div>
+            
+            <!-- Tools & Technologies -->
+            <div>
+                <h3 class="text-xl font-bold mb-6 text-primary">Tools & Technologies</h3>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <span class="px-5 py-2 bg-primary text-white rounded-full font-medium">Git Hub</span>
+                    <span class="px-5 py-2 bg-primary text-white rounded-full font-medium">VS Code</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">My Projects</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://t4.ftcdn.net/jpg/02/19/84/37/360_F_219843793_THUF93jSHHDig2O2aghMx7A5j7RgwcvF.jpg" alt="E-commerce Website" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Birthday Card Webpage</h3>
+                        <p class="text-gray-600 mb-4">A Birthday Card Webpage is a page that mimics a physical birthday card with decorations,messages, and sometimes 
+                            animations.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-gray-100 text-primary rounded-full text-sm">HTML</span>
+                            <span class="px-3 py-1 bg-gray-100 text-primary rounded-full text-sm">CSS</span>
+                            <span class="px-3 py-1 bg-gray-100 text-primary rounded-full text-sm">tailwindcss</span>
+                        </div>
+                        <div class="flex gap-4">
+                            <a href="https://codesandbox.io/p/sandbox/8zwcc8" class="text-primary hover:underline flex items-center">
+                                <i class="fas fa-external-link-alt mr-2"></i> Live Demo
+                            </a>
+                            <a href="bday.html" class="text-primary hover:underline flex items-center">
+                                <i class="fab fa-github mr-2"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2  -->
+                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://www.masaischool.com/blog/content/images/2022/06/Linked-List.png" alt="Data Structures Notes" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Data Structures Linked Lists Notes</h3>
+                        <p class="text-gray-600 mb-4">A comprehensive HTML-based notes project on data structures, specifically focusing on linked lists implementation and operations.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-gray-100 text-primary rounded-full text-sm">HTML</span>
+                            <span class="px-3 py-1 bg-gray-100 text-primary rounded-full text-sm">Data Structures</span>
+                            <span class="px-3 py-1 bg-gray-100 text-primary rounded-full text-sm">Linked Lists</span>
+                        </div>
+                        <div class="flex gap-4">
+                            <a href="https://jyothsna083.github.io/myproject/" class="text-primary hover:underline flex items-center">
+                                <i class="fas fa-external-link-alt mr-2"></i> Live Demo
+                            </a>
+                            <a href="index.html" class="text-primary hover:underline flex items-center">
+                                <i class="fab fa-github mr-2"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0THG64-2aaV77gDfXIEhlngbDzb8KjAMIJw&s" alt="Weather App" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">LIFI-light fidelity</h3>
+                        <p class="text-gray-600 mb-4">Light Fidelity is a wireless communication technology that uses visible light to transmit the data.
+                        
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-gray-100 text-primary rounded-full text-sm">led's & aux cables</span>
+                             <span class="px-3 py-1 bg-gray-100 text-primary rounded-full text-sm">solar panel</span>
+                        </div>
+                        <div class="flex gap-4">
+                            <a href="https://screenapp.io/app/#/shared/dtXU0--xGB" class="text-primary hover:underline flex items-center">
+                                <i class="fas fa-external-link-alt mr-2"></i> Live Demo
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Certifications</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Certification 1 -->
+                <div class="certification-card bg-white p-6 rounded-xl shadow-md hover:shadow-lg hover:translate-y-[-5px] transition-all duration-300">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white flex-shrink-0">
+                            <i class="fas fa-certificate text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Full Stack Java Course Completion Certificate</h3>
+                            <p class="text-gray-600 mb-2">Skilldzire</p>
+                            <p class="text-gray-500 text-sm">Completed in 2025</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Certification 2 -->
+                <div class="certification-card bg-white p-6 rounded-xl shadow-md hover:shadow-lg hover:translate-y-[-5px] transition-all duration-300">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white flex-shrink-0">
+                            <i class="fas fa-certificate text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Python Course Completion Certificate</h3>
+                            <p class="text-gray-600 mb-2">Geeks for Geeks</p>
+                            <p class="text-gray-500 text-sm">Completed in 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Get In Touch</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <h3 class="text-xl font-bold mb-6">Contact Information</h3>
+                        
+                        <div class="flex items-start gap-4 mb-6">
+                            <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white flex-shrink-0">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Location</h4>
+                                <p class="text-gray-600">visakhapatnam , India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start gap-4 mb-6">
+                            <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white flex-shrink-0">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Email</h4>
+                                <p class="text-gray-600">jyoshunanda@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start gap-4 mb-6">
+                            <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white flex-shrink-0">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Phone</h4>
+                                <p class="text-gray-600">+91 9392587xxx</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <h3 class="text-xl font-bold mb-6">Send a Message</h3>
+                        
+                        <form>
+                            <div class="mb-4">
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
+                                <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-gradient-to-r from-primary to-secondary text-white py-3 px-6 rounded-md font-semibold hover:shadow-lg transition-shadow">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+                <div class="text-2xl font-bold text-white mb-6 md:mb-0">Nandamudi Jyothsna</div>
+                <div class="flex space-x-6">
+                    <a href="https://github.com/Jyothsna083" class="text-white hover:text-secondary transition-colors">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jyothsna-nandamudi-a2680b359" class="text-white hover:text-secondary transition-colors">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                   
+                    
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2025 All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
